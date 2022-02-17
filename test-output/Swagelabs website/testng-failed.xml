@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Swagelabs website]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="headless_chrome"/>
+  <test thread-count="5" name="T(failed)">
+    <classes>
+      <class name="tests.ProcessCheckoutTest">
+        <methods>
+          <include name="Complete_checkout_process"/>
+          <include name="Login_To_Website_Using_Valid_Data"/>
+          <include name="StopDriver"/>
+          <include name="ScreenshotOnFailure"/>
+          <include name="Add_required_data_in_your_information_screen"/>
+          <include name="Sort_lowest_price"/>
+          <include name="waitt"/>
+          <include name="Adding_product_to_cart_and_open_the_cart"/>
+          <include name="StartDriver"/>
+        </methods>
+      </class> <!-- tests.ProcessCheckoutTest -->
+    </classes>
+  </test> <!-- T(failed) -->
+</suite> <!-- Failed suite [Swagelabs website] -->
