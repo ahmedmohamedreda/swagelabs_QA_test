@@ -29,13 +29,15 @@ fixed errors on the test script.
 upload the project on GitHub
 
 
-Using selenium webdriver automate the following scenario:
+##Using selenium webdriver automate the following scenario:
+```
 1- Login with credentials provided by website (https://www.saucedemo.com/)
 2- Sort the procduct from low to hige price and add it to cart
 3- Proceed to checkout
 4- Add required data in your information screen
 5- Complete checkout process
 6- Assert on completion of order
+```
 
 
 Installing Drivers
