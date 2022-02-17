@@ -16,7 +16,8 @@ firefox
 edge
 
 
-Updations and Implementations:
+###Updations and Implementations:
+```
 the website that used: https://www.saucedemo.com/ 
 Create project maven with POM (Page Object Model)
 create the page, tests, and utilities packages
@@ -27,9 +28,9 @@ run scenario.
 Retry failed test cases.
 fixed errors on the test script.
 upload the project on GitHub
+```
 
-
-##Using selenium webdriver automate the following scenario:
+###Using selenium webdriver automate the following scenario:
 ```
 1- Login with credentials provided by website (https://www.saucedemo.com/)
 2- Sort the procduct from low to hige price and add it to cart
@@ -40,9 +41,9 @@ upload the project on GitHub
 ```
 
 
-Installing Drivers
+###Installing Drivers
 Whichever browser you choose to run your automation on, you need to make sure to install the latest driver for that browser compatible with your target version of Selenium WebDriver.
 
-Here are the official homes for several of the major drivers:
+###Here are the official homes for several of the major drivers:
 ChromeDriver - https://sites.google.com/a/chromium.org/chromedriver/downloads
 IEDriver - http://selenium-release.storage.googleapis.com/index.html?path=2.53/
