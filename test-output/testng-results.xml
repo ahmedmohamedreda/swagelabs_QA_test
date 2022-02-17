@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-17T15:21:20 EET" name="Default suite" finished-at="2022-02-17T15:21:24 EET" duration-ms="3148">
+    <groups>
+    </groups>
+    <test started-at="2022-02-17T15:21:20 EET" name="Default test" finished-at="2022-02-17T15:21:24 EET" duration-ms="3148">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="StartDriver(java.lang.String)[pri:0, instance:tests.LoginTest@2fd1433e]" started-at="2022-02-17T15:21:05 EET" name="StartDriver" finished-at="2022-02-17T15:21:20 EET" duration-ms="15896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method is-config="true" signature="waitt()[pri:0, instance:tests.LoginTest@2fd1433e]" started-at="2022-02-17T15:21:20 EET" name="waitt" finished-at="2022-02-17T15:21:20 EET" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitt -->
+        <test-method signature="Login_To_Website_Using_Valid_Data()[pri:1, instance:tests.LoginTest@2fd1433e]" started-at="2022-02-17T15:21:20 EET" name="Login_To_Website_Using_Valid_Data" finished-at="2022-02-17T15:21:21 EET" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_To_Website_Using_Valid_Data -->
+        <test-method is-config="true" signature="ScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@2fd1433e]" started-at="2022-02-17T15:21:21 EET" name="ScreenshotOnFailure" finished-at="2022-02-17T15:21:21 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_To_Website_Using_Valid_Data status=SUCCESS method=LoginTest.Login_To_Website_Using_Valid_Data()[pri:1, instance:tests.LoginTest@2fd1433e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnFailure -->
+        <test-method is-config="true" signature="waitt()[pri:0, instance:tests.LoginTest@2fd1433e]" started-at="2022-02-17T15:21:21 EET" name="waitt" finished-at="2022-02-17T15:21:21 EET" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitt -->
+        <test-method signature="Sort_lowest_price()[pri:2, instance:tests.LoginTest@2fd1433e]" started-at="2022-02-17T15:21:21 EET" name="Sort_lowest_price" finished-at="2022-02-17T15:21:22 EET" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sort_lowest_price -->
+        <test-method is-config="true" signature="ScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@2fd1433e]" started-at="2022-02-17T15:21:22 EET" name="ScreenshotOnFailure" finished-at="2022-02-17T15:21:22 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Sort_lowest_price status=SUCCESS method=LoginTest.Sort_lowest_price()[pri:2, instance:tests.LoginTest@2fd1433e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnFailure -->
+        <test-method is-config="true" signature="waitt()[pri:0, instance:tests.LoginTest@2fd1433e]" started-at="2022-02-17T15:21:22 EET" name="waitt" finished-at="2022-02-17T15:21:22 EET" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitt -->
+        <test-method signature="Adding_product_to_cart_and_open_the_cart()[pri:3, instance:tests.LoginTest@2fd1433e]" started-at="2022-02-17T15:21:22 EET" name="Adding_product_to_cart_and_open_the_cart" finished-at="2022-02-17T15:21:22 EET" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adding_product_to_cart_and_open_the_cart -->
+        <test-method is-config="true" signature="ScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@2fd1433e]" started-at="2022-02-17T15:21:22 EET" name="ScreenshotOnFailure" finished-at="2022-02-17T15:21:22 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Adding_product_to_cart_and_open_the_cart status=SUCCESS method=LoginTest.Adding_product_to_cart_and_open_the_cart()[pri:3, instance:tests.LoginTest@2fd1433e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnFailure -->
+        <test-method is-config="true" signature="waitt()[pri:0, instance:tests.LoginTest@2fd1433e]" started-at="2022-02-17T15:21:22 EET" name="waitt" finished-at="2022-02-17T15:21:22 EET" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitt -->
+        <test-method signature="Add_required_data_in_your_information_screen()[pri:4, instance:tests.LoginTest@2fd1433e]" started-at="2022-02-17T15:21:22 EET" name="Add_required_data_in_your_information_screen" finished-at="2022-02-17T15:21:23 EET" duration-ms="1407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_required_data_in_your_information_screen -->
+        <test-method is-config="true" signature="ScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@2fd1433e]" started-at="2022-02-17T15:21:23 EET" name="ScreenshotOnFailure" finished-at="2022-02-17T15:21:23 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Add_required_data_in_your_information_screen status=SUCCESS method=LoginTest.Add_required_data_in_your_information_screen()[pri:4, instance:tests.LoginTest@2fd1433e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnFailure -->
+        <test-method is-config="true" signature="waitt()[pri:0, instance:tests.LoginTest@2fd1433e]" started-at="2022-02-17T15:21:23 EET" name="waitt" finished-at="2022-02-17T15:21:23 EET" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitt -->
+        <test-method signature="Complete_checkout_process()[pri:5, instance:tests.LoginTest@2fd1433e]" started-at="2022-02-17T15:21:23 EET" name="Complete_checkout_process" finished-at="2022-02-17T15:21:24 EET" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Complete_checkout_process -->
+        <test-method is-config="true" signature="ScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@2fd1433e]" started-at="2022-02-17T15:21:24 EET" name="ScreenshotOnFailure" finished-at="2022-02-17T15:21:24 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Complete_checkout_process status=SUCCESS method=LoginTest.Complete_checkout_process()[pri:5, instance:tests.LoginTest@2fd1433e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnFailure -->
+        <test-method is-config="true" signature="StopDriver()[pri:0, instance:tests.LoginTest@2fd1433e]" started-at="2022-02-17T15:21:24 EET" name="StopDriver" finished-at="2022-02-17T15:21:26 EET" duration-ms="1501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
