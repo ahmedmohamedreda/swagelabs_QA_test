@@ -4,22 +4,22 @@
 Selenium POM (Page Object Model) is a Java framework that provides ability to describe your web application as a hierarchy of models. It also adds helper methods for most common functions such us double click, or get value.
 
 ## Requirements
-`
+```
 • Java 8
-`
+```
 
 ## Dependencies
-`
+```
 • Maven
 • Selenium 
-`
+```
 
 ## Currently supported browsers are
-`
+```
 • chrome
 • firefox
 • headless chrome
-`
+```
 
 ### Updations and Implementations:
 ```
@@ -49,5 +49,7 @@ Selenium POM (Page Object Model) is a Java framework that provides ability to de
 Whichever browser you choose to run your automation on, you need to make sure to install the latest driver for that browser compatible with your target version of Selenium WebDriver.
 
 ### Here are the official homes for several of the major drivers:
-ChromeDriver - https://sites.google.com/a/chromium.org/chromedriver/downloads
-IEDriver - http://selenium-release.storage.googleapis.com/index.html?path=2.53/
+```
+• ChromeDriver - https://sites.google.com/a/chromium.org/chromedriver/downloads
+• IEDriver - http://selenium-release.storage.googleapis.com/index.html?path=2.53/
+```
